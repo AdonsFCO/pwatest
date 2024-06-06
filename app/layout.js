@@ -12,12 +12,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es-ES">
+    <html lang="es-US">
       <Head>
-        <meta name="application-name" content="Mainfe" />
+        <meta name="application-name" content="JorgePwa" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Mainfe" />
+        <meta name="apple-mobile-web-app-title" content="JorgePwa" />
         <meta name="description" content="Best PWA App in the world" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -40,20 +40,20 @@ export default function RootLayout({ children }) {
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://pwatest-rouge.vercel.app" />
-        <meta name="twitter:title" content="Mainfe" />
+        <meta name="twitter:title" content="JorgePwa" />
         <meta name="twitter:description" content="Best PWA App in the world" />
         <meta name="twitter:image" content="https://pwatest-rouge.vercel.app/icons/android-chrome-192x192.png" />
         <meta name="twitter:creator" content="@DavidWShadow" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Mainfe" />
+        <meta property="og:title" content="JorgePwa" />
         <meta property="og:description" content="Best PWA App in the world" />
-        <meta property="og:site_name" content="Mainfe" />
+        <meta property="og:site_name" content="JorgePwa" />
         <meta property="og:url" content="https://pwatest-rouge.vercel.app" />
         <meta property="og:image" content="https://pwatest-rouge.vercel.app/icons/apple-touch-icon.png" />
 
         <meta
-          name='viewport'
-          content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover'
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
         />
       </Head>
     <UserProvider>
