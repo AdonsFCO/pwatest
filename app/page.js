@@ -8,6 +8,7 @@ export default  async function Home() {
     
     <main className="">
         <h1>Hi!</h1>
+        <a href="/api/auth/login">Login</a>
     </main>
   );
 }
