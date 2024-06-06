@@ -1,3 +1,7 @@
 export default function Page() {
-    return <p>Hola Jorge esta es una prueba PWA</p>;
+    return (<main>
+        <h1>Hello jorge this is just a test</h1>
+        <a href="/api/auth/logout">Logout</a>
+
+    </main>);
   }
