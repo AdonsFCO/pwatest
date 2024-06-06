@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation';
 
 
 export default  async function Home() {
-  redirect('/api/auth/login?returnTo=/dashboard');
+  // redirect('/api/auth/login?returnTo=/dashboard');
   return (
     
     <main className="">
